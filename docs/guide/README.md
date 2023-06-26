@@ -32,7 +32,7 @@ sidebar:
 
 ```yaml
 USERS:
-    - access_key: XXXXXX # 注意冒号后的空格 否则会读取失败 英文冒号
+    - access_key: 77e6be18bfbe3a3635d3c78a8a219a61 # 注意冒号后的空格 否则会读取失败 英文冒号
       white_uid: 0 # 白名单用户ID, 可以是多个用户ID, 以逗号分隔,填写后只会打卡这些用户,黑名单失效，不用就填0
       banned_uid: 0 # 黑名单UID 同上,填了后将不会打卡，点赞，分享 用英文逗号分隔 不填则不限制,两个都填0则不限制,打卡所有直播间
     - access_key:
